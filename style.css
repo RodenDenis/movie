@@ -1,0 +1,27 @@
+body {
+	background-color: whitesmoke;
+}
+
+.de-nav-text {
+	text-transform: none;
+}
+.round {
+	width: 40px;
+	height: 40px;
+    border-radius: 50%; /* Радиус скругления */
+  }
+
+ .uk-first-column img {
+ 	width: 80%;
+ 	margin-left: 70px;
+
+ }
+
+.uk-section{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.de-nav-back {
+	margin-bottom: 1px;
+}
