@@ -29,11 +29,13 @@ body {
 .de-flex-width {
 	float: left;
 	background-size: cover;
+	display: inline-block;
+	vertical-align: top;
 
 }
 
 .de-flex-width img {
-	max-width: 180px;
+	max-width: auto;
 	max-height: 120px;
 }
 
@@ -42,21 +44,21 @@ body {
 }
 
 .de-calendar {
-	position: fixed;
 	width: 120px;
 	height: 150px;
-	margin-top: 150px;
-	margin-left: 360px;
+	position: absolute; 
+	top: -560px; 
 }
 
 .de-play {
 	width: 90px;
 	height: 90px;
-	margin-top: 550px;
-	margin-left: 820px;
+	left: 470px;
+	top: -300px;
 }
 
 .de-date {
 	margin-top: -15px;
 	font-size: 42pt;
 }
+
