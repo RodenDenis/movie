@@ -14,13 +14,13 @@
 				
 				<div class="uk-navbar-left">
 					<ul class="uk-navbar-nav">
-						<li class="uk-active de-nav-text"><a href="#"><h2>YouTuBe</h2></a></li>
+						<li class="de-nav-text"><a href="#"><h2 class="de-active">YouTuBe</h2></a></li>
 					</ul>
 				</div>
 				
 				<div class="uk-navbar-center">
 					<ul class="uk-navbar-nav">
-						<li class="uk-active de-nav-text uk-text-center"><a href="#"><span class="uk-icon uk-icon-image" style="background-image: url(005-star.png);"></span>Featured</a></li>
+						<li class="uk-text-primary de-nav-text uk-text-center uk-active"><a href="#"><span class="uk-icon uk-icon-image de-active" style="background-image: url(005-star.png);"></span>Featured</a></li>
 						<li class="de-nav-text"><a href="#"><span class="uk-icon uk-icon-image" style="background-image: url(003-movie.png);"></span>TV series</a></li>
 						<li class="de-nav-text"><a href="#"><span class="uk-icon uk-icon-image" style="background-image: url(004-film-roll.png);"></span>Movie</a></li>
 						<li class="de-nav-text"><a href="#"><span class="uk-icon uk-icon-image" style="background-image: url(002-good-mood-emoticon.png);"></span>Variety</a></li>
@@ -30,7 +30,7 @@
 				
 				<div class="uk-navbar-right">
 					<ul class="uk-navbar-nav">
-						<li class="uk-active de-nav-text uk-text-bold">
+						<li class="de-nav-text uk-text-bold">
 							<a href="#">Kane_D <img src="back.jpg" alt="" class="round"></a>
 						</li>
 					</ul>
@@ -41,9 +41,17 @@
 			<div class="uk-section uk-section-xsmall">
 				<div class="uk-container uk-child-width-1-2" uk-grid>
 					<div>
-						<div class="uk-dark">
+						<div class="uk-dark uk-container-expand">
 							<img src="poster.jpg" alt="" class="de-con-image">
 						</div>
+						<div class="uk-card uk-card-primary uk-card-body de-calendar uk-overlay uk-position-top">
+							<h1 class="uk-text-top de-date">30</h1>
+							<p class="uk-text-uppercase uk-text-small uk-text-center">NOV 2017</p>
+						</div>
+						<div class="uk-card uk-card-primary uk-card-body de-play uk-overlay uk-position-top">
+							<span class="uk-icon-link uk-position-center" uk-icon="icon: play; ratio: 3"></span>
+						</div>
+						
 					</div>
 					<div>
 						<div class="uk-inline uk-dark">
@@ -59,25 +67,25 @@
 								<p class="uk-text-lead uk-text-uppercase uk-text-bold"> the cast</p>
 								<div class="uk-navbar-right">
 									<ul class="uk-navbar-nav">
-										<li class="uk-active de-nav-text uk-text-bold">
+										<li class="de-nav-text uk-text-bold">
 											<a href="#"><img src="back.jpg" alt="" class="round"></a>
 										</li>
-										<li class="uk-active de-nav-text uk-text-bold">
+										<li class="de-nav-text uk-text-bold">
 											<a href="#"><img src="back.jpg" alt="" class="round"></a>
 										</li>
-										<li class="uk-active de-nav-text uk-text-bold">
+										<li class="de-nav-text uk-text-bold">
 											<a href="#"><img src="back.jpg" alt="" class="round"></a>
 										</li>
-										<li class="uk-active de-nav-text uk-text-bold">
+										<li class="de-nav-text uk-text-bold">
 											<a href="#"><img src="back.jpg" alt="" class="round"></a>
 										</li>
-										<li class="uk-active de-nav-text uk-text-bold">
+										<li class="de-nav-text uk-text-bold">
 											<a href="#"><img src="back.jpg" alt="" class="round"></a>
 										</li>
-										<li class="uk-active de-nav-text uk-text-bold">
+										<li class="de-nav-text uk-text-bold">
 											<a href="#"><img src="back.jpg" alt="" class="round"></a>
 										</li>
-										<li class="uk-active de-nav-text uk-text-bold">
+										<li class="de-nav-text uk-text-bold">
 											<a href="#"><img src="back.jpg" alt="" class="round"></a>
 										</li>
 									</ul>
@@ -85,32 +93,44 @@
 								<p class="uk-text-lead uk-text-uppercase uk-text-bold"> synopsis</p>
 								<p>Moonlight is a 2016 American coming-of-age drama film written and directed by Barry Jenkins, based on Tarell Alvin McCraney's unpublished semi-autobiographical play In Moonlight Black Boys Look Blue. It stars Trevante Rhodes, André Holland, Janelle Monáe, Ashton Sanders, Jharrel Jerome, Naomie Harris, and Mahershala Ali.[7]</p>
 								<p class="uk-text-lead uk-text-uppercase uk-text-bold"> video/picture</p>
-								<div class="uk-grid-match uk-text-center uk-grid-small" uk-grid>
-									<div class="uk-width-1-2@m">
-										<div class="uk-card uk-card-default uk-card-body">Item</div>
+								<div class="uk-grid-match uk-grid-small uk-flex uk-flex-wrap" uk-grid>
+									<div class="uk-flex-none de-flex-width">
+										<div><img src="back.jpg" alt=""></div>
 									</div>
-									<div class="uk-width-1-4@m">
-										<div class="uk-card uk-card-default uk-card-body">Item</div>
+									<div class="uk-flex-auto de-flex-width">
+										<div><img src="catalog-item-1.jpg" alt=""></div>
 									</div>
-									<div class="uk-width-1-4@m">
-										<div class="uk-card uk-card-default uk-card-body">Item</div>
+									<div class="uk-flex-auto de-flex-width">
+										<div><img src="catalog-item-2.jpg" alt=""></div>
 									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-body">Item</div>
+									<div class="uk-flex-auto de-flex-width">
+										<div><img src="catalog-item-3.jpg" alt=""></div>
 									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-body">Item</div>
+									<div class="uk-flex-auto de-flex-width">
+										<div><img src="catalog-item-4.jpg" alt=""></div>
 									</div>
-									<div class="uk-width-1-3@m">
-										<div class="uk-card uk-card-default uk-card-body">Item</div>
+									<div class="uk-flex-none de-flex-width">
+										<div><img src="back.jpg" alt=""></div>
 									</div>
-									<div>
-										<div class="uk-card uk-card-default uk-card-body">Item</div>
+									<div class="uk-flex-none de-flex-width">
+										<div><img src="back.jpg" alt=""></div>
+									</div>
+									<div class="uk-flex-auto de-flex-width">
+										<div><img src="catalog-item-1.jpg" alt=""></div>
+									</div>
+									<div class="uk-flex-auto de-flex-width">
+										<div><img src="catalog-item-2.jpg" alt=""></div>
+									</div>
+									<div class="uk-flex-auto de-flex-width">
+										<div><img src="catalog-item-3.jpg" alt=""></div>
+									</div>
+									<div class="uk-flex-auto de-flex-width">
+										<div><img src="catalog-item-4.jpg" alt=""></div>
 									</div>
 								</div>
-							</div>
+							</article>
 						</div>
-					</article>
+					</div>
 				</div>
 			</div>
 		</div>

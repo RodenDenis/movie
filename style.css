@@ -4,6 +4,7 @@ body {
 
 .de-nav-text {
 	text-transform: none;
+	color: black;
 }
 .round {
 	width: 40px;
@@ -11,10 +12,9 @@ body {
     border-radius: 50%; /* Радиус скругления */
   }
 
- .uk-first-column img {
+ .de-con-image {
  	width: 80%;
  	margin-left: 70px;
-
  }
 
 .uk-section{
@@ -24,4 +24,39 @@ body {
 
 .de-nav-back {
 	margin-bottom: 1px;
+}
+
+.de-flex-width {
+	float: left;
+	background-size: cover;
+
+}
+
+.de-flex-width img {
+	max-width: 180px;
+	max-height: 120px;
+}
+
+.de-active {
+	color: #1e87f0;
+}
+
+.de-calendar {
+	position: fixed;
+	width: 120px;
+	height: 150px;
+	margin-top: 150px;
+	margin-left: 360px;
+}
+
+.de-play {
+	width: 90px;
+	height: 90px;
+	margin-top: 550px;
+	margin-left: 820px;
+}
+
+.de-date {
+	margin-top: -15px;
+	font-size: 42pt;
 }
